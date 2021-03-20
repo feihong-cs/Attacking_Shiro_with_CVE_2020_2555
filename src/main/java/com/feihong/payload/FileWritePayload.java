@@ -12,6 +12,10 @@ import java.io.FileOutputStream;
 import java.lang.reflect.Field;
 import java.util.PriorityQueue;
 
+/*
+    尝试的一个思路，但是事实证明行不通
+ */
+
 public class FileWritePayload {
     public static byte[] generate(String fileName, String content) throws Exception {
         byte[] payload = content.getBytes();
